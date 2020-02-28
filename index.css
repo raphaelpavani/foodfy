@@ -1,0 +1,99 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap";
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", Helvetica, sans-serif;
+  line-height: 28px;
+  font-size: 18px;
+}
+nav {
+  margin-top: 36px;
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+li {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+h1 {
+  height: 19px;
+  width: 42px;
+  margin-left: 231px;
+  margin-right: 122.4px;
+}
+.receitas {
+  margin-left: 30px;
+}
+.wrapper {
+  background-color: #fbdfdb;
+  margin: 36px 230px 98px 230px;
+  height: 366px;
+  width: 940px;
+  border-radius: 30px;
+}
+.titulo {
+  font-size: 32px;
+  width: 305px;
+  height: 38px;
+  margin: 117px 575px 211px 60px;
+  position: absolute;
+}
+.conteudo-paragrafo {
+  opacity: 0.7;
+  width: 316px;
+  height: 84px;
+  margin: 165px 564px 117px 60px;
+  position: absolute;
+}
+.garcom {
+  margin: 66px 100px 0px 624px;
+  position: absolute;
+}
+
+.mais_acessadas {
+  font-size: 24px;
+  margin-left: 230px;
+  margin-bottom: 20px;
+}
+
+.cards {
+  margin: 20px 230px 98px 230px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  position: absolute;
+  width: 940px;
+}
+
+.card img {
+  height: 140px;
+  width: 300px;
+  border-radius: 15px;
+  /*border: #111 solid 5px;*/
+}
+.card__content {
+  font-size: 18px;
+  line-height: 21px;
+}
+.cozinheiro {
+  font-size: 14px;
+  line-height: 16px;
+}
+/*
+.footer {
+  position: absolute;
+  bottom: -300px;
+  left: 40%;
+  text-align: center;
+}
+*/
