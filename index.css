@@ -71,7 +71,6 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-  position: absolute;
   width: 940px;
 }
 
@@ -89,11 +88,8 @@ h1 {
   font-size: 14px;
   line-height: 16px;
 }
-/*
+
 .footer {
-  position: absolute;
-  bottom: -300px;
-  left: 40%;
+  position: relative;
   text-align: center;
 }
-*/
