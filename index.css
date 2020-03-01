@@ -14,12 +14,17 @@ body {
 nav {
   margin-top: 36px;
   border: 0px;
-  background-color: rgba(0, 0, 0, 0.1);
 }
 
 li {
   display: inline-block;
+  margin-left: 230px;
 }
+.sobre {
+  height: 19px;
+  width: 42px;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -33,6 +38,8 @@ h1 {
 }
 .receitas {
   margin-left: 30px;
+  height: 19px;
+  width: 42px;
 }
 .wrapper {
   background-color: #fbdfdb;
@@ -78,7 +85,6 @@ h1 {
   height: 140px;
   width: 300px;
   border-radius: 15px;
-  /*border: #111 solid 5px;*/
 }
 .card__content {
   font-size: 18px;
@@ -87,9 +93,18 @@ h1 {
 .cozinheiro {
   font-size: 14px;
   line-height: 16px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .footer {
-  position: relative;
   text-align: center;
+  height: 46px;
+  background-color: #eeeeee;
+  margin-top: -23px;
+  display: flex;
+  justify-content: center;
+  padding-top: 13px;
+}
+.footer p {
+  color: rgba(0, 0, 0, 0.5);
 }
